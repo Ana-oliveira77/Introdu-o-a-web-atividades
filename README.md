@@ -1,2 +1,49 @@
 # Introdu-o-a-web-atividades
 Atividade 1 CSS seletores
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adoção de Gatos</title>
+    <style>
+        /* 1. Estilizando os links */
+        a {
+            color: red; /* Cor padrão do link */
+            text-decoration: none;
+        }
+        a:hover {
+            color: #ccff00; /* Cor do link ao passar o mouse */
+        }
+        /* 2. Customizando parágrafos */
+        p {
+            font-family: Arial, sans-serif;
+        }
+        h1 + p {
+            font-weight: bold;
+        }
+        /* 3. Estilizando a classe .destaque */
+        .destaque {
+            font-family: Arial, sans-serif;
+        }
+        p.destaque {
+            font-weight: bold;
+        }
+        strong.destaque {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Adoção de Gatos</h1>
+    <p>Adotar um gato é um ato de amor e responsabilidade.</p>
+    <p class="destaque">Ao adotar, você dá uma nova chance para um animal necessitado.</p>
+    <h2>Benefícios de Adotar um Gato</h2>
+    <p>Gatos são companheiros leais, ajudam a reduzir o estresse e trazem alegria para o lar.</p>
+    <strong class="destaque">Adoção salva vidas!</strong>
+    <h2>Como Adotar?</h2>
+    <p>Procure ONGs ou abrigos de animais na sua cidade e conheça os gatos disponíveis para adoção.</p>
+    <p>Para mais informações, <a href="https://www.instagram.com/adoteumgatinho/" target="_blank">clique aqui</a>.</p>
+</body>
+</html>
